@@ -7,6 +7,7 @@
 //
 
 #import "StartUpViewController.h"
+#import "UserLoginInView.h"
 
 @interface StartUpViewController ()
 
@@ -23,10 +24,18 @@
     return self;
 }
 
+- (void) loadView
+{
+    UserLoginInView *loginView = [[UserLoginInView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    
+    self.view = loginView;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning

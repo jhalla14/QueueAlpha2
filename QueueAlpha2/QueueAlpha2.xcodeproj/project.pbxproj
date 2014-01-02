@@ -19,6 +19,8 @@
 		F0A654791874DB2900C0EFB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0A654611874DB2900C0EFB2 /* UIKit.framework */; };
 		F0A654811874DB2900C0EFB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0A6547F1874DB2900C0EFB2 /* InfoPlist.strings */; };
 		F0A654831874DB2900C0EFB2 /* QueueAlpha2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A654821874DB2900C0EFB2 /* QueueAlpha2Tests.m */; };
+		F0A6548E1874DD2300C0EFB2 /* StartUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A6548D1874DD2300C0EFB2 /* StartUpViewController.m */; };
+		F0A654911874DDF700C0EFB2 /* UserLoginInView.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A654901874DDF700C0EFB2 /* UserLoginInView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		F0A6547E1874DB2900C0EFB2 /* QueueAlpha2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QueueAlpha2Tests-Info.plist"; sourceTree = "<group>"; };
 		F0A654801874DB2900C0EFB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0A654821874DB2900C0EFB2 /* QueueAlpha2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QueueAlpha2Tests.m; sourceTree = "<group>"; };
+		F0A6548C1874DD2300C0EFB2 /* StartUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartUpViewController.h; sourceTree = "<group>"; };
+		F0A6548D1874DD2300C0EFB2 /* StartUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartUpViewController.m; sourceTree = "<group>"; };
+		F0A6548F1874DDF700C0EFB2 /* UserLoginInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginInView.h; sourceTree = "<group>"; };
+		F0A654901874DDF700C0EFB2 /* UserLoginInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginInView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				F0A6546C1874DB2900C0EFB2 /* AppDelegate.h */,
 				F0A6546D1874DB2900C0EFB2 /* AppDelegate.m */,
+				F0A6548C1874DD2300C0EFB2 /* StartUpViewController.h */,
+				F0A6548D1874DD2300C0EFB2 /* StartUpViewController.m */,
+				F0A6548F1874DDF700C0EFB2 /* UserLoginInView.h */,
+				F0A654901874DDF700C0EFB2 /* UserLoginInView.m */,
 				F0A6546F1874DB2900C0EFB2 /* Images.xcassets */,
 				F0A654641874DB2900C0EFB2 /* Supporting Files */,
 			);
@@ -241,6 +251,8 @@
 			files = (
 				F0A6546E1874DB2900C0EFB2 /* AppDelegate.m in Sources */,
 				F0A6546A1874DB2900C0EFB2 /* main.m in Sources */,
+				F0A654911874DDF700C0EFB2 /* UserLoginInView.m in Sources */,
+				F0A6548E1874DD2300C0EFB2 /* StartUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
