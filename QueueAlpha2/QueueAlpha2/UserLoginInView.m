@@ -18,8 +18,21 @@
         self.userEmailAddressFieldTitle.text = @"Email";
         self.userPasswordFieldTitle.text = @"Password";
         
+        
+        
         self.userSignUpButton.titleLabel.text = @"Sign Up";
         self.userLoginButton.titleLabel.text = @"Login In";
+        self.backgroundColor = [UIColor blueColor];
+        
+        [_userPasswordField setBackgroundColor:[UIColor redColor]];
+        
+        [self addSubview:_userEmailAddressFieldTitle];
+        [self addSubview:_userPasswordFieldTitle];
+        [self addSubview:_userSignUpButton];
+        [self addSubview:_userLoginButton];
+        [self addSubview:_userEmailAddressField];
+        [self addSubview:_userPasswordField];
+
     }
     return self;
 }
